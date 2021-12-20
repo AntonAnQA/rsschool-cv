@@ -20,3 +20,12 @@ I started studying IT profession two months ago. Studied HTML and CSS at a basic
 * Git (Basic)
 ## Education:
 ***
+Code-basics.com
+* HTML
+* CSS
+* JavaSkrypt
+Hexlet: 
+* Fundamentals of modern layout (CSS+HTML)
+## Languages:
+* Russian - native.
+* English - A1.

@@ -8,3 +8,15 @@
 ## About Me:
 ***
 I started studying IT profession two months ago. Studied HTML and CSS at a basic level. I want to change my profession to the IT sphere in the future.
+### My strengths: 
+* Responsibility
+* Learnability
+* Curiosity
+## Skills:
+***
+* HTML (Basic)
+* CSS (Basic)
+* JavaScript (Basic)
+* Git (Basic)
+## Education:
+***

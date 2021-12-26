@@ -1,9 +1,5 @@
 @font-face {
     font-family: Roboto;
-    src: url(assets/fonts/Roboto/Roboto.ttf);
-}
-@font-face {
-    font-family: Roboto;
     src: url(assets/fonts/Roboto/Roboto-Bold.ttf);
     font-weight: 700;
 }
@@ -29,8 +25,8 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     line-height: 1.5;
-    color: #293133;
-    background-color: #BBBBBB;
+    color: #ffffff;
+    background-color: #23282B;
 }
 .container {
     max-width: 1440px;
@@ -39,6 +35,7 @@ body {
 }
 .header {
     background-color: #2F353B;
+    border-radius: 0 0 50px 50px;
 }
 .nav-list {
     display: flex;
@@ -50,12 +47,12 @@ body {
     padding: 0 20px;
     line-height: 50px;
     text-decoration: none;
-    color: #CADABA;
+    color: #ffffff;
     transition: color 0.5s;
 }
 .nav-link:hover {
     font-weight: 700;
-    color: #8D32EC;
+    color: #D1E231;
 }
 .main {
     margin-bottom: auto;
@@ -82,9 +79,12 @@ body {
   .section-title {
     font-size: 20px;
     font-weight: 400;
+    padding: 0 20px;
     text-transform: uppercase;
     letter-spacing: 5px;
-    color: #2F4F4F;
+    color: #000000;
+    background-color: #D1E231;
+    border-radius: 20px;
   }
   .section-mine-title {
     position: relative;
@@ -127,16 +127,16 @@ body {
     left: 0px;
     width: 10px;
     height: 10px; 
-    border: 1px solid #2F4F4F;
+    border: 1px solid #D1E231;
     border-radius: 50%;
   }
   .section-item a {
       text-decoration: none;
-      color: #708090;
+      color: #B5B8B1;
       transition: color 0.5s;
   }
   .section-item a:hover {
-    color: #8D32EC;
+    color: #D1E231;
   }
   .contacts-item::before {
     content: "";
@@ -153,6 +153,7 @@ body {
   .footer {
     background-color: #2F353B;
     padding: 20px;  
+    border-radius: 50px 50px 0 0;
   }
   .footer-container {
       display: flex;

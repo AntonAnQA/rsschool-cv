@@ -11,9 +11,11 @@
 * {
     box-sizing: border-box;
 }
+
 html {
     scroll-behavior: smooth;
 }
+
 body {
     display: flex;
     flex-direction: column;
@@ -26,23 +28,27 @@ body {
     font-size: 18px;
     line-height: 1.5;
     color: #ffffff;
-    background-color: #23282B;
+    background-color: #23282b;
 }
+
 .container {
     max-width: 1440px;
     margin: 0 auto;
     min-height: 50px;
 }
+
 .header {
-    background-color: #2F353B;
+    background-color: #2f353b;
     border-radius: 0 0 50px 50px;
 }
+
 .nav-list {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     list-style: none;
 }
+
 .nav-link {
     padding: 0 20px;
     line-height: 50px;
@@ -50,118 +56,147 @@ body {
     color: #ffffff;
     transition: color 0.5s;
 }
+
 .nav-link:hover {
     font-weight: 700;
-    color: #D1E231;
+    color: #d1e231;
 }
+
 .main {
     margin-bottom: auto;
 }
+
 .main-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
 .section {
     width: calc(50% - 20px);
     padding: 10px;
     padding-bottom: 35px;
     border-bottom: 1px solid #ffffff;
 }
+
 @media (max-width: 768px) {
     .section {
       width: 100%;
     }
   }
-  .section-langauge, .section-education {
-      border-bottom: 0;
-  }
-  .section-title {
+
+.section-langauge, .section-education {
+    border-bottom: 0;
+}
+
+.section-title {
     font-size: 20px;
     font-weight: 400;
     padding: 0 20px;
     text-transform: uppercase;
     letter-spacing: 5px;
     color: #000000;
-    background-color: #D1E231;
+    background-color: #d1e231;
     border-radius: 20px;
-  }
-  .section-mine-title {
+}
+
+.section-title:hover {
+    background: linear-gradient(45deg, #a1ffce, #f9ffd1);
+    transform: scale(1.01);
+}
+
+.section-mine-title {
     position: relative;
     font-size: 30px;
 }
-  .section-profile {
+
+.section-profile {
       display: flex;
       justify-content: space-around;
       align-items: center;
       width: 100%;
       padding: 50px 0;
-  }
-  .section-profile-title {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      text-align: center;
-      text-transform: uppercase;
-  }
-  .section-subtitle {
-      color: #5c5c5c;
-      line-height: 50px;
-      letter-spacing: 2px;
-  }
-  .section-profile-avatar {
-      width: 300px;
-      height: 300px;
-      object-fit: cover;
-      border-radius: 50%;
-  }
-  .section-item {
+}
+
+.section-profile-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.section-subtitle {
+    color: #5c5c5c;
+    line-height: 50px;
+    letter-spacing: 2px;
+}
+
+.section-profile-avatar {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.section-item {
     position: relative;
     padding-left: 30px;
     list-style-type: none;
-  }
-  .section-item::before {
+}
+
+.section-item::before {
     content: "";
     position: absolute;
     top: 8px;
     left: 0px;
     width: 10px;
     height: 10px; 
-    border: 1px solid #D1E231;
+    border: 1px solid #d1e231;
     border-radius: 50%;
-  }
-  .section-item a {
-      text-decoration: none;
-      color: #B5B8B1;
-      transition: color 0.5s;
-  }
-  .section-item a:hover {
-    color: #D1E231;
-  }
-  .contacts-item::before {
+}
+
+.section-item a {
+    text-decoration: none;
+    color: #f9ffd1;
+}
+
+.section-item a:hover {
+    color: #a1ffce;
+    transition: 1.5;
+}
+
+.contacts-item::before {
     content: "";
     position: absolute;
     top: 8px;
     left: 0px;
     width: 10px;
     height: 10px; 
-  }
-  .footer-rss {
-      width: 121px;
-      height: 45px;
-  }
-  .footer {
-    background-color: #2F353B;
+}
+
+.footer-rss {
+    width: 121px;
+    height: 45px;
+}
+
+.footer {
+    background-color: #2f353b;
     padding: 20px;  
     border-radius: 50px 50px 0 0;
-  }
-  .footer-container {
-      display: flex;
-      justify-content: space-between;
-      text-align: center;
-      margin: 0 auto;
-      color: #ffffff;
-  }
-  .footer-container a {
-      text-decoration: none;
-  }
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 0 auto;
+    color: #ffffff;
+}
+
+.footer-container a {
+    text-decoration: none;
+}
+.section-item span {
+    font-style: italic;
+}
